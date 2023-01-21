@@ -1,0 +1,60 @@
+.wrapper {
+  margin: 2rem auto;
+  width: 80%;
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #e83a06;
+  }
+}
+
+.card-wrapper {
+  margin: 2rem auto;
+  border: 2px solid #b7b7b7;
+  box-shadow: 0 0 25px 5px #3333;
+  border-radius: 25px;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  flex-wrap: wrap;
+
+  .card {
+    width: 40rem;
+    height: 100%;
+    border: 2px solid rgba(169, 169, 169, 0.18);
+
+  }
+
+  .selections-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+    p {
+      font-size: 2rem;
+    }
+
+    input {
+      border: none;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50% !important;
+    }
+
+    .input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      margin: 2rem 0;
+    }
+  }
+}
